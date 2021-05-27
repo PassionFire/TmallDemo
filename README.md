@@ -1,15 +1,15 @@
 # 迷你天猫商城
-迷你天猫商城是一个基于SpringBoot框架的综合性B2C电商平台，需求设计主要参考天猫商城的购物流程：用户从注册开始，到完成登录，浏览商品，加入购物车，进行下单，确认收货，评价等一系列操作。
+迷你天猫商城是一个基于SpringBoot框架的综合性B2C电商平台，需求设计主要参考天猫商城的购物流程：用户从注册开始，到完成登录，浏览商品，加入购物车，进行下单，支付，确认收货，评价等一系列操作。
 作为模拟天猫商城系统的核心组成部分之一，采用Springboot框架的天猫数据管理后台包含商品管理，订单管理，类别管理，用户管理和交易额统计等模块，实现了对整个商城的一站式管理和维护。
 
 后端页面兼容IE10及以上现代浏览器，Chrome,Edge,Firebox等浏览器表现效果最佳。
 
 # 部署方式
-1.项目使用IntelliJ IDEA开发，请使用IntelliJ IDEA的版本控制检出功能，输入“https://gitee.com/HaiTao87/TmallDemo.git”拉取项目即可。
-2.项目数据库为MySQL 5.7版本，请在码云附件上下载SQL文件或者在resources下的sql文件夹中下载sql，并导入到数据库中。
+1.项目使用IntelliJ IDEA开发，请使用IntelliJ IDEA的版本控制检出功能，输入“https://gitee.com/zwp1341710922/e-commerce-management-system.git”拉取项目即可。
+2.项目数据库为MySQL 8.0版本，请在码云附件上下载SQL文件或者在sql文件夹中下载sql，并导入到数据库中。
 3.使用IDEA打开项目后，在maven面板刷新项目，下载依赖包。
 4.在IDEA中启动springboot项目即可（run方式或debug方式都行）。
-5.账户名和密码详见附件中的sql文件或者在resources下的sql文件夹中的sql文件（sql运行之后在admin表里有账户名和密码）。
+5.账户名和密码详见附件中的sql文件或者在sql文件夹中的sql文件（sql运行之后在admin表里有账户名和密码）。
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1016/150457_5c0c7304_996301.png "屏幕截图.png")
 
 注意事项：后台管理界面的订单图表没有数据为正常现象，该图表显示的为近7天的交易额。
